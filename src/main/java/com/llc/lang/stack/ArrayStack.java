@@ -1,13 +1,13 @@
 package com.llc.lang.stack;
 
-public class ArrayStack<T> implements Stack<T> {
+public class ArrayStack<Item> implements Stack<Item> {
 
-	public void push(T element) {
+	public void push(Item element) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public T pop() {
+	public Item pop() {
 		// TODO Auto-generated method stub
 		return null;
 	}
