@@ -6,7 +6,7 @@ public class Explainer {
 
 	public static void main(String[] args) {
 
-		String expression = " ( 2/10)";
+		String expression = " ( 2/1)";
 		Algs4Stack<Double> operandStack = new Algs4Stack<Double>();
 		Algs4Stack<String> operatorStack = new Algs4Stack<String>();
 
