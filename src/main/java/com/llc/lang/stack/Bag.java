@@ -4,7 +4,11 @@ import java.util.Iterator;
 
 public class Bag<Item> implements Iterable<Item>{
 	private Node first;
-
+    private int N;
+	
+    public int size(){return N;}
+    public boolean isEmpty(){return N==0;}
+    
 	private class Node {
 		Item item;
 		Node next;
@@ -15,6 +19,7 @@ public class Bag<Item> implements Iterable<Item>{
 		first = new Node();
 		first.item = item;
 		first.next = temp;
+		N++;
 	}
 
 	public Iterator<Item> iterator() {
